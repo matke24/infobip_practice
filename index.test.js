@@ -36,7 +36,39 @@ test("For 10 function should return X", () =>{
     expect(romanNumerals(10)).toBe("X");
 })
 
-test("For 28 function should return XXVIII", () =>{
-    expect(romanNumerals(28)).toBe("XXVIII");
+test("For 40 function should return XL", () =>{
+    expect(romanNumerals(40)).toBe("XL");
+})
+
+test("For 50 function should return L", () =>{
+    expect(romanNumerals(50)).toBe("L");
+})
+
+test("For 90 function should return XC", () =>{
+    expect(romanNumerals(90)).toBe("XC");
+})
+
+test("For 100 function should return C", () =>{
+    expect(romanNumerals(100)).toBe("C");
+})
+
+test("For 400 function should return CD", () =>{
+    expect(romanNumerals(400)).toBe("CD");
+})
+
+test("For 500 function should return D", () =>{
+    expect(romanNumerals(500)).toBe("D");
+})
+
+test("For 900 function should return CM", () =>{
+    expect(romanNumerals(900)).toBe("CM");
+})
+
+test("For 1000 function should return M", () =>{
+    expect(romanNumerals(1000)).toBe("M");
+})
+
+test("For 0 function should return empty string", () =>{
+    expect(romanNumerals(0)).toBe("");
 })
 
